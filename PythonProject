@@ -9,4 +9,4 @@ while True:
     
     subs = json.loads(data)["items"][0]["statistics"]["subscriberCount"]
     
-    print(name+" has "+"{:,d}".format(int(subs))+" subscribers!!!")
+    print(name+" has "+"{:,d}".format(int(subs))+" subs.")
